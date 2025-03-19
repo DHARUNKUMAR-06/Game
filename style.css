@@ -1,0 +1,91 @@
+.container {
+
+    background-image: url("https: //cdn.pixabay.com/photo/2015/11/05/10/12/ball-1023985_1280.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.8;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.button {
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 10px 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#number {
+    height: 70px;
+    width: 200px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.8;
+
+}
+
+#game2 {
+    background-color: gray;
+}
+
+#message {
+    display: none;
+    font-size: 1.5em;
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+}
+
+
+#lives_text {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.high {
+    font-size: 300px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+#lose {
+    position: absolute;
+    left: 80px;
+}
+
+#win {
+    position: absolute;
+    left: 300px;
+}
